@@ -375,9 +375,7 @@ img {
 }
 .block-filter__icon {
   width: 10px;
-  height: 7px;
   cursor: pointer;
-  background: url("../images/icons/arrow_dropdown.svg") center bottom no-repeat;
   transition: transform 0.2s;
 }
 .block-filter__icon._active {
