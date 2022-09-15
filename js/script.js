@@ -20,7 +20,7 @@ if (filter) {
       item.querySelector(".block-filter__dropdown").classList.toggle("_active")
       item.querySelector(".block-filter__icon").classList.toggle("_active")
 
-      if (event.target.classList.contains(".block-filter__item")) {
+      if (event.target.classList.contains("block-filter__item")) {
         item.querySelector('.block-filter__value').textContent = event.target.textContent
       }
     })
